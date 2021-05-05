@@ -39,7 +39,7 @@
     - 開啟cmd，啟動專案
       輸入指令 cd 檔案鎖在資料夾路徑
       輸入指令 java -jar 檔案名稱
-    - 啟動完成
+   - 啟動完成
     - 於網頁中輸入http://localhost:8080/article/add 新增文章名稱及內容
     - 文章列表 http://localhost:8080/article/ 
  
