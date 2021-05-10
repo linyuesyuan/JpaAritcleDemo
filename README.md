@@ -22,10 +22,10 @@
     - 開啟 JpaArticleDemo/src/main/resources/application.properties 檔案
     - 修改資料庫設定
       輸入新增MySQL Connections設定的帳密
-      spring.datasource.username
-      spring.datasource.password
+      - spring.datasource.username
+      - spring.datasource.password
     - 若不是使用MySQL則需要修改以下欄位值
-      spring.jpa.properties.hibernate.dialect
+      - spring.jpa.properties.hibernate.dialect
     - 修改後儲存
   - 啟動專案點擊左上角綠色箭頭符號
   - 或者打包成.jar
@@ -37,9 +37,9 @@
     - 再點擊"package"
     - 完成後本專案jar檔路徑位於於"Building jar:"後
     - 開啟cmd，啟動專案
-      輸入指令 cd 檔案鎖在資料夾路徑
-      輸入指令 java -jar 檔案名稱
-   - 啟動完成
+      - 輸入指令 cd 檔案鎖在資料夾路徑
+      - 輸入指令 java -jar 檔案名稱
+  - 啟動完成
     - 於網頁中輸入http://localhost:8080/article/add 新增文章名稱及內容
     - 文章列表 http://localhost:8080/article/ 
  
